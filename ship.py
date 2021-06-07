@@ -70,7 +70,6 @@ class Ship(gameobject.GameObject):
     def death_animation(self):
         if self.death_animation_time == 170:
             pygame.mixer.Channel(6).stop()
-            print("STOP")
         # Here comes the ship's explosion animation
         if self.aux_death_animation_sprite <= 0:
             self.sprite = pygame.image.load(f'./assets/ship_explosion_{self.death_animation_aux}.png').convert_alpha()

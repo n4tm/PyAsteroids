@@ -57,7 +57,6 @@ class Scenario:
                 self.run_beat3 = True
 
             elif self.aux_beat == (100 - 6*self.aux_beat2)//2:
-                print(self.aux_beat2)
                 if self.ship is not None and not self.ship.running_death_animation:
                     pygame.mixer.Channel(6).play(config.beat2)
                 self.aux_beat3 -= 1
