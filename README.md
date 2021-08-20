@@ -1,5 +1,5 @@
 # PyAsteroids
-##An Original Atari Asteroids replica made by myself using Pygame.
+### An Original Atari Asteroids replica made by myself using Pygame.
 
 ![asteroids](https://user-images.githubusercontent.com/63219861/120959577-116e6980-c728-11eb-949a-f975d6854bba.gif)
 
